@@ -1,0 +1,58 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Fri Sep 27 19:07:46 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000056
+                   .cinit    romdata   0x000056    program   0x000002
+.config_300001_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300006    program   0x000001
+.config_300008_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300008    program   0x000001
+.config_300009_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x300009    program   0x000001
+.config_30000A_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x30000a    program   0x000001
+.config_30000B_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x30000b    program   0x000001
+.config_30000C_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x30000c    program   0x000001
+.config_30000D_BUILD/DEFAULT/PRODUCTION/CONTADO    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000057      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            99 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ASK   0x000036    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+                    DELAY   0x000032    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+                   INICIO   0x000000    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+                    LIMIT   0x000024    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+                     MAIN   0x000010    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+                  NOLIMIT   0x00002a    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+                    TABLA   0x00003c    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000000    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+                     MAIN   0x000010    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+                    LIMIT   0x000024    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+                  NOLIMIT   0x00002a    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+                    DELAY   0x000032    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+                      ASK   0x000036    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+                    TABLA   0x00003c    program     static /Users/mauriciodinki/Documents/Escuela/Dispisitivos Programables/Practicas/Practica 5 (Timer)/Contador_Palabra.X/contador_palabra.asm
+
+
